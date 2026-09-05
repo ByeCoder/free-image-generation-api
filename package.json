@@ -1,0 +1,14 @@
+{
+  "name": "cloudflare-flux-image-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI image generation API powered by Cloudflare Workers AI and FLUX.1 Schnell",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
