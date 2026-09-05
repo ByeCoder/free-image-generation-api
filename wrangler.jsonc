@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "cloudflare-flux-image-api",
+  "main": "worker.js",
+  "compatibility_date": "2026-09-05",
+
+  "ai": {
+    "binding": "AI"
+  },
+
+  "observability": {
+    "enabled": true
+  }
+}
